@@ -149,6 +149,15 @@
     },
     "Model" : {
       "description" : "test de la vie\n"
+    },
+    "Model1" : {
+      "type" : "object",
+      "properties" : {
+        "id" : {
+          "type" : "integer",
+          "format" : "int64"
+        }
+      }
     }
   },
   "host" : "virtserver.swaggerhub.com",
