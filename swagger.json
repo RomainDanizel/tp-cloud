@@ -148,9 +148,9 @@
       }
     },
     "Model" : {
-      "description" : "test de la vie\n"
+      "description" : "réponse"
     },
-    "Model1" : {
+    "/test" : {
       "type" : "object",
       "properties" : {
         "id" : {
