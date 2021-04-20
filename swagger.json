@@ -101,8 +101,8 @@
         "produces" : [ "application/json" ],
         "parameters" : [ {
           "in" : "query",
-          "name" : "searchString",
-          "description" : "pass an optional search string for looking up inventory",
+          "name" : "searchGraph",
+          "description" : "pass an optional search string for looking up the graph you need",
           "required" : false,
           "type" : "string"
         }, {
@@ -139,7 +139,7 @@
       "post" : {
         "tags" : [ "admins" ],
         "summary" : "adds an inventory item",
-        "operationId" : "addInventory",
+        "operationId" : "addGraph",
         "description" : "Adds an item to the system",
         "consumes" : [ "application/json" ],
         "produces" : [ "application/json" ],
