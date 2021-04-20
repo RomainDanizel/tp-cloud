@@ -142,7 +142,7 @@
         "id" : {
           "type" : "integer",
           "format" : "url",
-          "example" : null,
+          "example" : "https://www.acme-corp.com",
           "$ref" : "#/test"
         }
       }
