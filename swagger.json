@@ -135,7 +135,7 @@
         }
       }
     },
-    "Test" : {
+    "/test" : {
       "type" : "object",
       "properties" : {
         "id" : {
