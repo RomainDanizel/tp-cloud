@@ -15,10 +15,10 @@
   },
   "tags" : [ {
     "name" : "admins",
-    "description" : "Secured Admin-only calls"
+    "description" : "GRAM's side of the API"
   }, {
-    "name" : "developers",
-    "description" : "Operations available to regular developers"
+    "name" : "editor",
+    "description" : "Editor's side of the API"
   } ],
   "paths" : {
     "/inventory" : {
