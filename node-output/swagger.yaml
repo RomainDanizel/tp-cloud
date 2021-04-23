@@ -2,7 +2,7 @@
   "openapi" : "3.0.0",
   "info" : {
     "title" : "Gram",
-    "description" : "This is a sample Petstore server.  You can find\nout more about Swagger at\n",
+    "description" : "Gram is an api that fetch client's datas and uses them to create a dashboard \n",
     "version" : "1.0.0"
   },
   "externalDocs" : {
@@ -28,16 +28,6 @@
   }, {
     "name" : "completion",
     "description" : "Completion achieved by user"
-  }, {
-    "name" : "store",
-    "description" : "Access to Petstore orders"
-  }, {
-    "name" : "user",
-    "description" : "Operations about user",
-    "externalDocs" : {
-      "description" : "Find out more about our store",
-      "url" : "http://swagger.io"
-    }
   } ],
   "paths" : {
     "/user" : {
